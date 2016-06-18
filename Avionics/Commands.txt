@@ -1,0 +1,30 @@
+//Commands
+//r - readys launch
+//f - final launch ready
+//l - LAUNCH
+//a - abort
+//s - returns state of variables
+
+//Commands Meant for DAQ
+//i - initialization: initializes SD card
+//t - sensor test: sends sensor values ten times over 5 seconds
+//c - collect data: collects data continuously. outputs over serial and saves. Also checks temp
+//to make sure it's not too hot. Command to make pins go high to signal heat event are commented out
+//e - exit data collect
+
+//Commands Meant for Launch Box
+//p - system arm
+//o - igniter arm
+//k - igniter continuity test
+//b - buzzer
+//1 - N2O fill open
+//2 - N2O fill close
+//3 - N2O vent open
+//4 - N2O vent close
+//5 - Oxygen fill open
+//6 - Oxygen fill close
+//7 - QD air open
+//8 - QD air close
+//9 - aux
+//0 - chA
+//q - chB
